@@ -14,19 +14,21 @@ function Navbar() {
         <button className="ibm-navbar-hamburger" onClick={() => setMenuOpen(m => !m)} aria-label="Open menu">
           <svg viewBox="0 0 32 32"><rect x="6" y="8" width="20" height="2" rx="1"/><rect x="6" y="15" width="20" height="2" rx="1"/><rect x="6" y="22" width="20" height="2" rx="1"/></svg>
         </button>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
-          alt="IBM Logo"
-          className="ibm-navbar-logo"
-        />
+        <a href="https://www.ibm.com" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
+            alt="IBM Logo"
+            className="ibm-navbar-logo"
+          />
+        </a>
         <div className="ibm-navbar-divider" />
         <ul className={`ibm-navbar-links${menuOpen ? ' open' : ''}`}> 
-          <li>AI <span className="ibm-navbar-caret">{ArrowDownIcon}</span></li>
-          <li>Hybrid Cloud <span className="ibm-navbar-caret">{ArrowDownIcon}</span></li>
-          <li>Products <span className="ibm-navbar-caret">{ArrowDownIcon}</span></li>
-          <li>Consulting</li>
-          <li>Support <span className="ibm-navbar-caret">{ArrowDownIcon}</span></li>
-          <li>Think</li>
+          <li><a href="https://www.ibm.com/watson/" target="_blank" rel="noopener noreferrer">AI <span className="ibm-navbar-caret">{ArrowDownIcon}</span></a></li>
+          <li><a href="https://www.ibm.com/cloud/hybrid" target="_blank" rel="noopener noreferrer">Hybrid Cloud <span className="ibm-navbar-caret">{ArrowDownIcon}</span></a></li>
+          <li><a href="https://www.ibm.com/products" target="_blank" rel="noopener noreferrer">Products <span className="ibm-navbar-caret">{ArrowDownIcon}</span></a></li>
+          <li><a href="https://www.ibm.com/consulting/" target="_blank" rel="noopener noreferrer">Consulting</a></li>
+          <li><a href="https://www.ibm.com/support" target="_blank" rel="noopener noreferrer">Support <span className="ibm-navbar-caret">{ArrowDownIcon}</span></a></li>
+          <li><a href="https://www.ibm.com/think/" target="_blank" rel="noopener noreferrer">Think</a></li>
         </ul>
       </div>
       <div className="ibm-navbar-right">

@@ -75,7 +75,7 @@ function TechConsulting() {
       <div className="tech-consulting-header">
         <h2>Technology and consulting</h2>
         <div className="tech-consulting-desc">
-          From <a href="#" className="blue-link">next-generation AI</a> to cutting edge <a href="#" className="blue-link">hybrid cloud solutions</a> to the deep expertise of <a href="#" className="blue-link">IBM Consulting<sup>®</sup></a>, IBM has what it takes to help you reinvent how your business works in the age of AI.
+          From <a href="https://www.ibm.com" className="blue-link">next-generation AI</a> to cutting edge <a href="https://www.ibm.com" className="blue-link">hybrid cloud solutions</a> to the deep expertise of <a href="https://www.ibm.com" className="blue-link">IBM Consulting<sup>®</sup></a>, IBM has what it takes to help you reinvent how your business works in the age of AI.
         </div>
       </div>
       <div className="tech-consulting-grid">
@@ -100,24 +100,24 @@ function TechConsulting() {
             <div className="inside-ibm-col-title">Our company</div>
             <div className="inside-ibm-col-desc">Explore IBM history and culture of putting technology to work in the real world.</div>
             <div className="inside-ibm-links">
-              <a href="#" className="inside-ibm-link">About IBM <span className="arrow">&rarr;</span></a>
-              <a href="#" className="inside-ibm-link">Our history <span className="arrow">&rarr;</span></a>
+              <a href="https://www.ibm.com" className="inside-ibm-link">About IBM <span className="arrow">&rarr;</span></a>
+              <a href="https://www.ibm.com" className="inside-ibm-link">Our history <span className="arrow">&rarr;</span></a>
             </div>
           </div>
           <div className="inside-ibm-col">
             <div className="inside-ibm-col-title">Our innovations</div>
             <div className="inside-ibm-col-desc">Visit the IBM lab, and see what's in store for the future of computing.</div>
             <div className="inside-ibm-links">
-              <a href="#" className="inside-ibm-link">IBM Research <span className="external">&#x2197;</span></a>
-              <a href="#" className="inside-ibm-link">Quantum computing <span className="arrow">&rarr;</span></a>
+              <a href="https://www.ibm.com" className="inside-ibm-link">IBM Research <span className="external">&#x2197;</span></a>
+              <a href="https://www.ibm.com" className="inside-ibm-link">Quantum computing <span className="arrow">&rarr;</span></a>
             </div>
           </div>
           <div className="inside-ibm-col">
             <div className="inside-ibm-col-title">Our people</div>
             <div className="inside-ibm-col-desc">See what it takes to become an IBMer, or build your skills with our educational courses.</div>
             <div className="inside-ibm-links">
-              <a href="#" className="inside-ibm-link">Become an IBMer <span className="arrow">&rarr;</span></a>
-              <a href="#" className="inside-ibm-link">Start learning <span className="external">&#x2197;</span></a>
+              <a href="https://www.ibm.com" className="inside-ibm-link">Become an IBMer <span className="arrow">&rarr;</span></a>
+              <a href="https://www.ibm.com" className="inside-ibm-link">Start learning <span className="external">&#x2197;</span></a>
             </div>
           </div>
         </div>

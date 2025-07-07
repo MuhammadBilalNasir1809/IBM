@@ -21,8 +21,8 @@ function Banner() {
         <div className="ibm-banner-news">
           <h3>Latest news</h3>
           <ul>
-            <li><a href="#">Deutsche Telekom Selects IBM Concert to Accelerate IT…</a></li>
-            <li><a href="#">Parsons Corporation is Ready Now to Build America's Brand…</a></li>
+            <li><a href="https://www.ibm.com">Deutsche Telekom Selects IBM Concert to Accelerate IT…</a></li>
+            <li><a href="https://www.ibm.com">Parsons Corporation is Ready Now to Build America's Brand…</a></li>
           </ul>
           <div className="ibm-banner-pagination">
             <span className="ibm-banner-page active">1</span>
