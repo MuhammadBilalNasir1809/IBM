@@ -1,0 +1,182 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+  }
+  
+  .ibm-banner {
+    background: #fff;
+    padding: 0 0 60px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .ibm-banner-main {
+    display: grid;
+    grid-template-columns: 2fr  2fr  2fr;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 56px 0 0 0;
+    min-height: 520px;
+    box-sizing: border-box;
+    column-gap: 40px;
+  }
+  
+  .ibm-banner-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 24px;
+    margin-left: -40px;
+  }
+  
+  .ibm-banner-title {
+    color: #0f62fe;
+    font-size: 3.5rem; /* Matches IBM title size */
+    font-weight:100;
+    margin-bottom: 32px;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+  }
+  
+  .ibm-banner-desc {
+    color: #161616;
+    font-size: 1.25rem;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    max-width: 1200px;
+    width: 520px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+  }
+  
+  .ibm-banner-buttons {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 32px;
+  }
+  
+  .ibm-btn {
+    font-size: 1rem;
+    padding: 14px 28px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+    outline: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .ibm-btn-primary {
+    background: #0f62fe;
+    color: #fff;
+    border: 1.5px solid #0f62fe;
+  }
+  
+  .ibm-btn-primary:hover {
+    background: #0353e9;
+    border-color: #0353e9;
+  }
+  
+  .ibm-btn-secondary {
+    background: #fff;
+    color: #0f62fe;
+    border: 1.5px solid #0f62fe;
+  }
+  
+  .ibm-btn-secondary:hover {
+    background: #e5f1ff;
+  }
+  
+  .ibm-banner-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  
+  .ibm-banner-image {
+    display: block;
+    block-size: 100%;
+    inline-size: 700px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .ibm-banner-news {
+    background: #fff;
+    border-left: 1px solid #e0e0e0;
+    padding: 32px 24px 24px 32px;
+  }
+  
+  .ibm-banner-news h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 18px;
+    color: #161616;
+  }
+  
+  .ibm-banner-news ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 18px 0;
+  }
+  
+  .ibm-banner-news li {
+    margin-bottom: 18px;
+  }
+  
+  .ibm-banner-news a {
+    color: #0f62fe;
+    text-decoration: none;
+    font-size: 1.01rem;
+    font-weight: 400;
+  }
+  
+  .ibm-banner-news a:hover {
+    text-decoration: underline;
+  }
+  
+  .ibm-banner-pagination {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  
+  .ibm-banner-page {
+    font-size: 1rem;
+    color: #0f62fe;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    padding: 2px 6px;
+  }
+  
+  .ibm-banner-page.active {
+    border-bottom: 2px solid #0f62fe;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 1200px) {
+    .ibm-banner-main {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .ibm-banner-right {
+      margin-top: 32px;
+      width: 100%;
+      justify-content: flex-start;
+    }
+  
+    .ibm-banner-news {
+      position: static;
+      width: 100%;
+      border-left: none;
+      margin-top: 32px;
+      padding: 24px 0 0 0;
+    }
+  }
+  
