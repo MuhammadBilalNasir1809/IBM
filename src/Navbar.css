@@ -104,12 +104,14 @@
   width: 28px;
   height: 28px;
   stroke: #222;
-}.ibm-navbar-dropdown {
+}
+
+.ibm-navbar-dropdown {
   position: fixed;
   left: 0;
   top: 54px;
   width: 100vw;
-  height: auto; /* Changed to auto */
+  height: 200px;
   background: #fff;
   box-shadow: 0 2px 16px rgba(0,0,0,0.08);
   border-bottom: 1px solid #e0e0e0;
@@ -119,6 +121,38 @@
   z-index: 300;
   gap: 0 120px;
 }
+
+.ibm-navbar-dropdown-item {
+  flex: 1 1 260px;
+  min-width: 220px;
+  font-size: 19px;
+  font-weight: 400;
+  color: #222;
+  padding: 12px 32px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background 0.18s, color 0.18s;
+}
+
+.ibm-navbar-dropdown-item:hover {
+  color: #222;
+}
+
+.ibm-navbar-dropdown-text:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.ibm-navbar-links li {
+  position: relative;
+}
+
+.ibm-navbar-arrow.flipped {
+  transform: rotate(180deg);
+}
+
 
 .support-mega-menu {
   display: flex;
