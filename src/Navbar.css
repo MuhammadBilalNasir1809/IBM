@@ -211,6 +211,117 @@
   font-weight: 400;
 }
 
+.products-mega-menu {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  min-height: 577px;
+  background: #fff;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  border-bottom: 1px solid #e0e0e0;
+  z-index: 300;
+}
+.products-menu-left {
+  width: 320px;
+  background: #fafbfc;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0 0 0;
+  position: relative;
+}
+.products-menu-category {
+  font-size: 0.97rem;
+  color: #222;
+  padding: 7px 18px 7px 20px;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  border-left: 3px solid transparent;
+  margin-bottom: 1px;
+  border-radius: 0 3px 3px 0;
+}
+.products-menu-category.selected, .products-menu-category:hover {
+  background: #ededed;
+  font-weight: 600;
+  border-left: 3px solid #222;
+}
+.products-menu-all-btn {
+  display: block;
+  background: #0f62fe;
+  color: #fff;
+  font-weight: 500;
+  text-align: left;
+  padding: 12px 20px;
+  margin-top: auto;
+  text-decoration: none;
+  font-size: 0.97rem;
+  border: none;
+  border-radius: 0;
+  transition: background 0.18s;
+}
+.products-menu-all-btn:hover {
+  background: #0353e9;
+  color: #fff;
+  text-decoration: underline;
+}
+.products-menu-right {
+  flex: 1;
+  padding: 28px 28px 28px 36px;
+  display: flex;
+  flex-direction: column;
+}
+.products-featured-title {
+  font-size: 1.32rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #222;
+  margin-left: -50px;
+}
+.products-featured-cols {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  margin-left: -50px;
+}
+.products-featured-col {
+  flex: 1 1 0;
+  min-width: 180px;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.products-featured-item {
+  margin-bottom: 2px;
+}
+.products-featured-name {
+  font-weight: 600;
+  color: #555454;
+  margin-bottom: 0px;
+  font-size: 0.99rem;
+}
+.products-featured-desc {
+  color: #444;
+  font-size: 0.93rem;
+  line-height: 1.35;
+}
+.blue-title {
+  color: #0f62fe !important;
+  display: flex;
+  align-items: center;
+  font-size: 1.32rem;
+  font-weight: 600;
+}
+.products-title-arrow {
+  color: #0f62fe;
+  font-size: 1.32rem;
+  font-weight: 600;
+  margin-left: 8px;
+}
+.products-featured-item:hover {
+  background: #ededed;
+  transition: background 0.18s;
+}
 @media (max-width: 900px) {
   .ibm-navbar {
     flex-direction: row;
@@ -291,5 +402,27 @@
     padding: 12px 0 8px 0;
     margin-bottom: 0;
     border-bottom: 1px solid #e0e0e0;
+  }
+  .products-mega-menu {
+    flex-direction: column;
+    min-height: 0;
+  }
+  .products-menu-left {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0;
+  }
+  .products-menu-right {
+    padding: 16px 8px;
+  }
+  .products-featured-cols {
+    flex-direction: column;
+    gap: 0;
+  }
+  .products-featured-col {
+    min-width: 0;
+    max-width: 100%;
+    gap: 6px;
   }
 }
